@@ -71,3 +71,59 @@ Explanation: Given list is [2,3,6,6,5]. The maximum score is 6, second maximum i
 
 
 practical 5. You are given a string and your task is to swap cases. In other words, convert all lowercase letters to uppercase letters and vice versa . Sample Input: HackerRank.com presents "Pythonist 2" . Sample Output: hACKERrANK.COM PRESENTS "pYTHONIST 2".
+
+practical 6: You are given n words. Some words may repeat. For each word, output its 
+number of occurrences. The output order should correspond with the input order 
+of appearance of the word. See the sample input/output for clarification.
+Sample Input
+4
+bcdef
+abcdefg
+bcde
+bcdef
+Sample Output
+3
+2 1 1
+Explanation: There are 3 distinct words. Here, "bcdef" appears twice in the input 
+at the first and last positions. The other words appear once each. The order of the 
+first appearances are "bcdef", "abcdefg" and "bcde" which corresponds to the 
+output.
+
+practical 7: Lapindrome is defined as a string which when split in the middle, gives two 
+halves having the same characters and same frequency of each character. If there 
+are odd number of characters in the string, we ignore the middle character and 
+check for lapindrome. For example gaga is a lapindrome, since the two halves ga
+and ga have the same characters with same frequency. Also, abccab, rotor and 
+xyzxy are a few examples of lapindromes. Note that abbaab is NOT a lapindrome. 
+The two halves contain the same characters but their frequencies do not match.
+Your task is simple. Given a string, you need to tell if it is a lapindrome.
+Input:
+6
+gaga
+abcde
+rotor
+xyzxy
+abbaab
+ababc
+
+Output:
+YES
+NO
+YES
+YES
+NO
+NO
+
+practical 8: Implement following operation on Portable Document Format (PDF)
+1. Extracting text from PDF
+2. Rotating PDF pages
+3. Merging PDFs
+4. Splitting PDF
+5. Adding watermark to PDF pages
+6. Encrypting and decrypting PDF files
+
+practical 9: Creating and sending emails using python
+1. Sending a Plain-Text Email
+2. Sending Fancy Emails
+3. Sending Multiple Personalized Emails
+4. Send HTML Email with Attachment
